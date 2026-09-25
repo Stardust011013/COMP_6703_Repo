@@ -1,0 +1,80 @@
+{
+  "cv": {
+    "mean": {
+      "rmse": 7.616209071775801,
+      "mae": 5.653125,
+      "r2": -0.06250214651234676
+    },
+    "random_forest": {
+      "rmse": 8.1961849008806,
+      "mae": 6.1726078928016435,
+      "r2": -0.23048293765471484
+    },
+    "svr_rbf": {
+      "rmse": 8.56002266200218,
+      "mae": 6.715930429606135,
+      "r2": -0.3421527029843434
+    }
+  },
+  "train_ids": [
+    "067",
+    "113",
+    "115",
+    "116",
+    "126",
+    "128",
+    "130",
+    "142",
+    "145",
+    "149",
+    "150",
+    "156",
+    "172",
+    "178",
+    "186",
+    "204",
+    "212",
+    "213",
+    "216",
+    "228",
+    "233",
+    "242",
+    "255",
+    "257",
+    "259",
+    "260",
+    "262",
+    "263",
+    "264",
+    "265",
+    "266",
+    "272",
+    "273",
+    "274",
+    "275",
+    "277",
+    "278",
+    "279",
+    "280",
+    "281"
+  ],
+  "feature_names": [
+    "delta_median_log_power",
+    "delta_temporal_iqr",
+    "delta_spatial_iqr",
+    "delta_temporal_slope",
+    "theta_median_log_power",
+    "theta_temporal_iqr",
+    "theta_spatial_iqr",
+    "theta_temporal_slope",
+    "alpha_median_log_power",
+    "alpha_temporal_iqr",
+    "alpha_spatial_iqr",
+    "alpha_temporal_slope",
+    "beta_median_log_power",
+    "beta_temporal_iqr",
+    "beta_spatial_iqr",
+    "beta_temporal_slope"
+  ],
+  "primary_model": "random_forest"
+}
